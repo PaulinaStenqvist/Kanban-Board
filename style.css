@@ -1,15 +1,14 @@
-/* Trees Image - Pexels: https://www.pexels.com/photo/photo-of-trees-in-forest-3801030/ */
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
 
 html {
   box-sizing: border-box;
 }
 
 :root {
-  --column-1: #a2622d;
-  --column-2: #1b6161;
-  --column-3: #248224;
-  --column-4: #a22d22;
+  --column-1: #f8f406;
+  --column-2: #3518AB;
+  --column-3: #04B24A;
+  --column-4: #D50559;
 }
 
 body {
@@ -19,7 +18,7 @@ body {
   background-position: 50% 60%;
   background-attachment: fixed;
   color: white;
-  font-family: Quicksand, sans-serif;
+  font-family: 'Merriweather', sans-serif;
   overflow-y: hidden;
 }
 
@@ -58,10 +57,10 @@ ul {
   overflow-x: hidden;
 }
 
-.backlog-column .header,
-.backlog-column .solid,
-.backlog-column .solid:hover,
-.backlog-column .over {
+.todo-column .header,
+.todo-column .solid,
+.todo-column .solid:hover,
+.todo-column .over {
   background-color: var(--column-1);
 }
 
